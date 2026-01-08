@@ -1,0 +1,55 @@
+# Rust compiled files
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (include this for binary projects, exclude for libraries)
+# Uncomment the line below if you're building a library
+# Cargo.lock
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# IDE specific files
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / CLion
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Rust-analyzer
+rust-analyzer/
+
+# Profiling data
+*.profraw
+*.profdata
